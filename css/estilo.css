@@ -1,3 +1,79 @@
 *{
-    background-color: aqua;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1200px; /* Limita a largura máxima */
+    margin: auto; /* Centraliza o container */
+    padding: 20px; /* Adiciona espaçamento interno */
+}
+
+
+body{
+    background-color: rgb(209, 180, 137);
+}
+
+header{
+    background-color: rgb(250, 235, 215);
+    padding: 17px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1000 ;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration:wavy blueviolet;
+}
+    
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul li{
+    margin-left: 20px;
+    font-size: 1.5em;
+}
+
+nav ul li a{
+    color: #ad740a;
+    text-decoration: none;    
+}
+
+.banner{
+    background-color: rgb(255, 249, 240);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 1.3em;
+    text-shadow: 2px 2px 5px #ad9e88 ;
+    align-items: center;
+}
+
+.questao .si{
+    background-color: rgb(238, 206, 65);
+    padding: 15px;
+}
+
+.questao .no{
+    background-color: #c2422b;
+    padding: 13px;
 }

@@ -7,6 +7,41 @@
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    
+    <header >
+        <div>
+            <div class="logo"> logo</div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">inicio</a></li>
+                    <li><a href="#question">Pergunta</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="inicio" class="banner" >
+        <h1>texto do banner, h1.</h1>
+        <p>Parágrafo no banner.</p>
+    </section>
+    <main>
+        <section id="question" class="questao">
+            <h1>Você ama coxinha?</h1>
+            <div class="si">
+                <button onclick="clicou()">sim</button>
+              <script>
+                    function clicou() {
+                        window.alert('Nós te amamos :)))))')
+                    }
+                </script>
+            </div>
+            <div class="no">
+            <button onclick="clicouemnao()">não</button>
+            <script>
+                function clicouemnao() {
+                    window.alert('oxiiii, não é humano n??????')
+                }
+            </script>
+            </section>
+        </div>
+    </main>
 </body>
 </html>
